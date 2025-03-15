@@ -1,5 +1,5 @@
 {
-    "name": "flattens/inertia",
+    "name": "flattensinertia",
     "description": "An inertia adapter for statamic",
     "require": {
         "inertiajs/inertia-laravel": "^2.0"
