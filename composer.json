@@ -2,7 +2,7 @@
     "name": "flattens/inertia",
     "description": "An inertia adapter for statamic",
     "require": {
-        "inertiajs/inertia-laravel": "^0.5.4"
+        "inertiajs/inertia-laravel": "^2.0"
     },
     "license": "MIT",
     "autoload": {
