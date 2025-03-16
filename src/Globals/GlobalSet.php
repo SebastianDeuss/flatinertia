@@ -1,13 +1,13 @@
 <?php
 
-namespace Flattens\Inertia\Globals;
+namespace Flatinertia\Globals;
 
 use JsonSerializable;
 use Illuminate\Support\Str;
 use Statamic\Globals\GlobalSet as Statamic;
-use Flattens\Inertia\Contracts\Resourceable;
+use Flatinertia\Contracts\Resourceable;
 use Statamic\Contracts\Globals\GlobalSet as Contract;
-use Flattens\Inertia\Http\Resourceable as HasResource;
+use Flatinertia\Http\Resourceable as HasResource;
 
 class GlobalSet extends Statamic implements Contract, Resourceable, JsonSerializable
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Flattens\Inertia\Stache\Repositories;
+namespace Flatinertia\Stache\Repositories;
 
 use Statamic\Contracts\Structures\Nav;
 use Statamic\Contracts\Structures\NavigationRepository as Contract;
@@ -11,7 +11,7 @@ class NavigationRepository extends Statamic implements Contract
     public static function bindings(): array
     {
         return [
-            Nav::class => \Flattens\Inertia\Structures\Nav::class,
+            Nav::class => \Flatinertia\Structures\Nav::class,
         ];
     }
 }

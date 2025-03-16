@@ -1,13 +1,13 @@
 <?php
 
-namespace Flattens\Inertia\Taxonomies;
+namespace Flatinertia\Taxonomies;
 
 use JsonSerializable;
 use Illuminate\Support\Str;
 use Statamic\Contracts\Taxonomies\Term as Contract;
 use Statamic\Taxonomies\Term as Statamic;
-use Flattens\Inertia\Contracts\Resourceable;
-use Flattens\Inertia\Http\Resourceable as HasResource;
+use Flatinertia\Contracts\Resourceable;
+use Flatinertia\Http\Resourceable as HasResource;
 
 class Term extends Statamic implements Contract, Resourceable, JsonSerializable
 {

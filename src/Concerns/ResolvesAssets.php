@@ -1,12 +1,12 @@
 <?php
 
-namespace Flattens\Inertia\Concerns;
+namespace Flatinertia\Concerns;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Statamic\Facades\Asset;
 use Illuminate\Support\Collection;
-use Flattens\Inertia\Assets\Asset as Resource;
+use Flatinertia\Assets\Asset as Resource;
 
 trait ResolvesAssets
 {

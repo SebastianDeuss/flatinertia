@@ -1,6 +1,6 @@
 <?php
 
-namespace Flattens\Inertia\Http\Resources;
+namespace Flatinertia\Http\Resources;
 
 class TermResource extends Resource
 {

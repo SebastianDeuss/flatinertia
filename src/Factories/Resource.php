@@ -1,15 +1,15 @@
 <?php
 
-namespace Flattens\Inertia\Factories;
+namespace Flatinertia\Factories;
 
-use Flattens\Inertia\Entries\Entry;
-use Flattens\Inertia\Http\Resources;
-use Flattens\Inertia\Taxonomies\Term;
-use Flattens\Inertia\Entries\Collection;
-use Flattens\Inertia\Contracts\Resourceable;
-use Flattens\Inertia\Globals\GlobalSet;
-use Flattens\Inertia\Taxonomies\LocalizedTerm;
-use Flattens\Inertia\Taxonomies\Taxonomy;
+use Flatinertia\Entries\Entry;
+use Flatinertia\Http\Resources;
+use Flatinertia\Taxonomies\Term;
+use Flatinertia\Entries\Collection;
+use Flatinertia\Contracts\Resourceable;
+use Flatinertia\Globals\GlobalSet;
+use Flatinertia\Taxonomies\LocalizedTerm;
+use Flatinertia\Taxonomies\Taxonomy;
 
 class Resource
 {

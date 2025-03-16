@@ -1,11 +1,11 @@
 <?php
 
-namespace Flattens\Inertia\Http\Resources;
+namespace Flatinertia\Http\Resources;
 
 use Statamic\Facades\Site;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Flattens\Inertia\Structures\Structure;
+use Flatinertia\Structures\Structure;
 
 class CollectionResource extends Resource
 {

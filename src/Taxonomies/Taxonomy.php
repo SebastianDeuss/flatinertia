@@ -1,11 +1,11 @@
 <?php
 
-namespace Flattens\Inertia\Taxonomies;
+namespace Flatinertia\Taxonomies;
 
 use Illuminate\Support\Str;
-use Flattens\Inertia\Contracts\Resourceable;
+use Flatinertia\Contracts\Resourceable;
 use Statamic\Taxonomies\Taxonomy as Statamic;
-use Flattens\Inertia\Http\Resourceable as HasResource;
+use Flatinertia\Http\Resourceable as HasResource;
 use Statamic\Contracts\Taxonomies\Taxonomy as Contract;
 
 class Taxonomy extends Statamic implements Contract, Resourceable

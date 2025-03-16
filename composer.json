@@ -1,5 +1,5 @@
 {
-    "name": "flattensinertia",
+    "name": "sebastiandeuss/flatinertia",
     "description": "An inertia adapter for statamic",
     "require": {
         "inertiajs/inertia-laravel": "^2.0"
@@ -7,7 +7,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Flattens\\Inertia\\": "src/"
+            "Flatinertia\\": "src/"
         }
     },
     "authors": [

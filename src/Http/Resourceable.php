@@ -1,8 +1,8 @@
 <?php
 
-namespace Flattens\Inertia\Http;
+namespace Flatinertia\Http;
 
-use Flattens\Inertia\Factories\Resource;
+use Flatinertia\Factories\Resource;
 
 trait Resourceable
 {

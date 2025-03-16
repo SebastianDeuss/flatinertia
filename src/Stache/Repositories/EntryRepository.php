@@ -1,6 +1,6 @@
 <?php
 
-namespace Flattens\Inertia\Stache\Repositories;
+namespace Flatinertia\Stache\Repositories;
 
 use Statamic\Contracts\Entries\Entry;
 use Statamic\Contracts\Entries\QueryBuilder;
@@ -22,8 +22,8 @@ class EntryRepository extends Statamic implements Contract
     public static function bindings(): array
     {
         return [
-            QueryBuilder::class => \Flattens\Inertia\Stache\Query\EntryQueryBuilder::class,
-            Entry::class => \Flattens\Inertia\Entries\Entry::class,
+            QueryBuilder::class => \Flatinertia\Stache\Query\EntryQueryBuilder::class,
+            Entry::class => \Flatinertia\Entries\Entry::class,
         ];
     }
 }

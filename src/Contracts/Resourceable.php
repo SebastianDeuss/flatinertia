@@ -1,6 +1,6 @@
 <?php
 
-namespace Flattens\Inertia\Contracts;
+namespace Flatinertia\Contracts;
 
 interface Resourceable
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Flattens\Inertia\Concerns;
+namespace Flatinertia\Concerns;
 
 use InvalidArgumentException;
 use Statamic\Contracts\Entries\Entry;

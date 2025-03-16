@@ -1,6 +1,6 @@
 <?php
 
-namespace Flattens\Inertia\Structures;
+namespace Flatinertia\Structures;
 
 use JsonSerializable;
 use Statamic\Facades\Entry;

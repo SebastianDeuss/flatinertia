@@ -1,21 +1,21 @@
 <?php
 
-namespace Flattens\Inertia;
+namespace Flatinertia;
 
 use Statamic\Statamic;
-use Flattens\Inertia\Stache\Query\EntryQueryBuilder;
+use Flatinertia\Stache\Query\EntryQueryBuilder;
 use Statamic\Contracts\Entries\EntryRepository as StatamicEntryRepository;
 use Statamic\Contracts\Taxonomies\TermRepository as StatamicTermRepository;
 use Statamic\Contracts\Taxonomies\TaxonomyRepository as StatamicTaxonomyRepository;
 use Statamic\Contracts\Globals\GlobalRepository as StatamicGlobalRepository;
 use Statamic\Contracts\Structures\NavigationRepository as StatamicNavRepository;
-use Flattens\Inertia\Stache\Repositories\TermRepository as FlattensTermRepository;
-use Flattens\Inertia\Stache\Repositories\TaxonomyRepository as FlattensTaxonomyRepository;
-use Flattens\Inertia\Stache\Repositories\EntryRepository as FlattensEntryRepository;
+use Flatinertia\Stache\Repositories\TermRepository as FlattensTermRepository;
+use Flatinertia\Stache\Repositories\TaxonomyRepository as FlattensTaxonomyRepository;
+use Flatinertia\Stache\Repositories\EntryRepository as FlattensEntryRepository;
 use Statamic\Contracts\Entries\CollectionRepository as StatamicCollectionRepository;
-use Flattens\Inertia\Stache\Repositories\GlobalRepository as FlattensGlobalRepository;
-use Flattens\Inertia\Stache\Repositories\NavigationRepository as FlattensNavRepository;
-use Flattens\Inertia\Stache\Repositories\CollectionRepository as FlattensCollectionRepository;
+use Flatinertia\Stache\Repositories\GlobalRepository as FlattensGlobalRepository;
+use Flatinertia\Stache\Repositories\NavigationRepository as FlattensNavRepository;
+use Flatinertia\Stache\Repositories\CollectionRepository as FlattensCollectionRepository;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

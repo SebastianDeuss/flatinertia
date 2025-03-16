@@ -1,6 +1,6 @@
 <?php
 
-namespace Flattens\Inertia\Http\Resources;
+namespace Flatinertia\Http\Resources;
 
 use Carbon\Carbon;
 use Inertia\Inertia;
@@ -8,10 +8,10 @@ use JsonSerializable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Contracts\Support\Arrayable;
-use Flattens\Inertia\Concerns\ResolvesAssets;
+use Flatinertia\Concerns\ResolvesAssets;
 use Illuminate\Contracts\Support\Responsable;
-use Flattens\Inertia\Concerns\ResolvesInternalUrls;
-use Flattens\Inertia\Concerns\ResolvesNestedEntries;
+use Flatinertia\Concerns\ResolvesInternalUrls;
+use Flatinertia\Concerns\ResolvesNestedEntries;
 
 class Resource implements Arrayable, JsonSerializable, Responsable
 {

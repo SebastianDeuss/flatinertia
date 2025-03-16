@@ -1,6 +1,6 @@
 <?php
 
-namespace Flattens\Inertia;
+namespace Flatinertia;
 
 use Illuminate\Support\Facades\Facade;
 

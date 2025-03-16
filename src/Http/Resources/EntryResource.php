@@ -1,9 +1,9 @@
 <?php
 
-namespace Flattens\Inertia\Http\Resources;
+namespace Flatinertia\Http\Resources;
 
 use Statamic\Facades\Term;
-use Flattens\Inertia\Structures\Structure;
+use Flatinertia\Structures\Structure;
 use Statamic\Facades\Collection as CollectionRepository;
 
 class EntryResource extends Resource

@@ -1,8 +1,8 @@
 <?php
 
-namespace Flattens\Inertia\Http\Resources;
+namespace Flatinertia\Http\Resources;
 
-use Flattens\Inertia\Globals\GlobalSet;
+use Flatinertia\Globals\GlobalSet;
 
 class GlobalSetResource extends Resource
 {

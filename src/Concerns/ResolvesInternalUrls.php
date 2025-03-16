@@ -1,6 +1,6 @@
 <?php
 
-namespace Flattens\Inertia\Concerns;
+namespace Flatinertia\Concerns;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Collection;

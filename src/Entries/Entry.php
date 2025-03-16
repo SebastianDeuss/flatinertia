@@ -1,13 +1,13 @@
 <?php
 
-namespace Flattens\Inertia\Entries;
+namespace Flatinertia\Entries;
 
 use Illuminate\Support\Str;
 use Statamic\Entries\Entry as Statamic;
-use Flattens\Inertia\Contracts\Resourceable;
-use Flattens\Inertia\Concerns\ResolvesNestedEntries;
-use Flattens\Inertia\Concerns\ResolvesStructuredData;
-use Flattens\Inertia\Http\Resourceable as HasResource;
+use Flatinertia\Contracts\Resourceable;
+use Flatinertia\Concerns\ResolvesNestedEntries;
+use Flatinertia\Concerns\ResolvesStructuredData;
+use Flatinertia\Http\Resourceable as HasResource;
 use JsonSerializable;
 
 class Entry extends Statamic implements Resourceable, JsonSerializable

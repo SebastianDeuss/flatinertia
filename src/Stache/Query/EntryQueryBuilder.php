@@ -1,6 +1,6 @@
 <?php
 
-namespace Flattens\Inertia\Stache\Query;
+namespace Flatinertia\Stache\Query;
 
 use Statamic\Contracts\Entries\QueryBuilder as Contract;
 use Statamic\Stache\Query\EntryQueryBuilder as Statamic;

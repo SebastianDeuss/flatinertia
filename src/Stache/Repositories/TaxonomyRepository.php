@@ -1,6 +1,6 @@
 <?php
 
-namespace Flattens\Inertia\Stache\Repositories;
+namespace Flatinertia\Stache\Repositories;
 
 use Statamic\Contracts\Taxonomies\Taxonomy;
 use Statamic\Stache\Repositories\TaxonomyRepository as Statamic;
@@ -11,7 +11,7 @@ class TaxonomyRepository extends Statamic implements Contract
     public static function bindings(): array
     {
         return [
-            Taxonomy::class => \Flattens\Inertia\Taxonomies\Taxonomy::class,
+            Taxonomy::class => \Flatinertia\Taxonomies\Taxonomy::class,
         ];
     }
 }

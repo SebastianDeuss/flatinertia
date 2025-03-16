@@ -1,12 +1,12 @@
 <?php
 
-namespace Flattens\Inertia\Concerns;
+namespace Flatinertia\Concerns;
 
 use JsonSerializable;
 use Illuminate\Support\Collection;
 use Statamic\Facades\Entry as Query;
 use Illuminate\Contracts\Support\Arrayable;
-use Flattens\Inertia\Contracts\Resourceable;
+use Flatinertia\Contracts\Resourceable;
 
 trait ResolvesNestedEntries
 {

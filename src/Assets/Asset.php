@@ -1,6 +1,6 @@
 <?php
 
-namespace Flattens\Inertia\Assets;
+namespace Flatinertia\Assets;
 
 use JsonSerializable;
 use Statamic\Assets\Asset as Entity;
